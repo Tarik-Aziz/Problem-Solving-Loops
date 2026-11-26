@@ -8,7 +8,7 @@ while i < len(n):
     i += 1
     if num % 2 == 0:
         continue
-print(num)
-    
-
+    if num == 9:
+        break
+    print(num)
     
